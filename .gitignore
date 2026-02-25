@@ -1,0 +1,26 @@
+# Ignore everything by default
+*
+
+# Allow only the files that should be committed
+!.gitignore
+!requirements.txt
+!3539856_BD2.ipynb
+
+# Data files — never commit (too large, provided separately)
+JCPenneyFiles/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Jupyter auto-save checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
